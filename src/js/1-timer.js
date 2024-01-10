@@ -37,7 +37,7 @@ const options = {
         messageLineHeight: '1.5',
         color: '#EF4040',
         position: 'topRight',
-        iconUrl: '../img/alert-cancel.svg',
+        iconUrl: './img/alert-cancel.svg',
         iconColor: '#FAFAFB',
       });
     } else {
