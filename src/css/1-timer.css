@@ -111,6 +111,6 @@
   opacity: 1;
 }
 
-.icon-cancel::before {
+.icon-cancel {
   background-image: url(../img/alert-cancel.svg);
 }
