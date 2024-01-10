@@ -1,0 +1,117 @@
+.form {
+  width: 360px;
+
+  color: #2e2f42;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.input-label {
+  display: block;
+  letter-spacing: 0.64px;
+}
+
+.input-label input {
+  display: block;
+
+  border-radius: 4px;
+  border: 1px solid #808080;
+
+  background: #fff;
+
+  height: 40px;
+  width: 100%;
+
+  padding: 8px 16px;
+  margin-top: 8px;
+
+  outline: none;
+
+  transition: border-color 0.2s ease-in-out;
+}
+
+.input-label input:hover {
+  border-color: #000;
+}
+
+.input-label input:active,
+.input-label input:focus {
+  border-color: #4e75ff;
+}
+
+.input-label input:disabled {
+  border-color: #808080;
+  background: #fafafa;
+
+  color: #808080;
+}
+
+.fieldset {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 48px;
+
+  margin: 16px 0 24px;
+  padding: 14px 48px 8px;
+
+  width: 100%;
+
+  border-radius: 4px;
+  border: 1px solid #808080;
+}
+
+.legend {
+  letter-spacing: 0.64px;
+}
+
+.radio-label {
+  display: flex;
+  align-items: center;
+
+  gap: 14px;
+}
+
+.radio-label input {
+  margin: 0;
+
+  width: 20px;
+  height: 20px;
+}
+
+.form-btn {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  padding: 8px 16px;
+
+  border: none;
+  border-radius: 8px;
+
+  background: #4e75ff;
+
+  transition: background 0.2s ease-in-out;
+}
+
+.form-btn:hover {
+  background: #6c8cff;
+}
+
+.iziToast-wrapper .iziToast > .iziToast-close {
+  background-image: url(../img/alert-close.svg);
+  background-size: auto;
+  opacity: 1;
+}
+
+.icon-ok {
+  background-image: url(../img/alert-ok.svg);
+}

@@ -23,6 +23,7 @@
 }
 
 .calendar:active,
+.calendar:focus,
 .calendar.active {
   border-color: #4e75ff;
 }

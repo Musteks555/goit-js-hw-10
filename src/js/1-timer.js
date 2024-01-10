@@ -3,7 +3,6 @@ import 'flatpickr/dist/flatpickr.min.css';
 
 import izitoast from 'izitoast';
 import 'izitoast/dist/css/iziToast.min.css';
-import 'izitoast/dist/js/iziToast.min.js';
 
 const startBtn = document.querySelector('.start-btn');
 const calendar = document.querySelector('#datetime-picker');
@@ -36,6 +35,7 @@ const options = {
         messageSize: '16px',
         messageLineHeight: '1.5',
         color: '#EF4040',
+        progressBarColor: '#B51B1B',
         position: 'topRight',
         icon: 'icon-cancel',
         iconColor: '#FAFAFB',
