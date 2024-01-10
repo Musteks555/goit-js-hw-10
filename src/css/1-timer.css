@@ -1,0 +1,112 @@
+.calendar {
+  height: 40px;
+
+  padding: 8px 16px;
+
+  border-radius: 4px;
+  border: 1px solid #808080;
+  outline: none;
+
+  background: #fff;
+
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+
+  margin-right: 8px;
+
+  transition: border-color 0.2s ease-in-out;
+}
+
+.calendar:hover {
+  border-color: #000;
+}
+
+.calendar:active,
+.calendar.active {
+  border-color: #4e75ff;
+}
+
+.calendar:disabled {
+  border-color: #808080;
+  background: #fafafa;
+
+  color: #808080;
+}
+
+.start-btn {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  border: none;
+  border-radius: 8px;
+
+  background: #4e75ff;
+
+  padding: 8px 16px;
+
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+.start-btn:hover {
+  background: #6c8cff;
+}
+
+.start-btn:disabled {
+  background: #cfcfcf;
+
+  color: #989898;
+
+  cursor: default;
+}
+
+.flatpickr-calendar {
+  margin-top: 8px;
+}
+
+.flatpickr-calendar .flatpickr-day.today {
+  color: #393939;
+
+  background: none;
+}
+
+.timer {
+  margin-top: 32px;
+
+  display: flex;
+  align-items: center;
+
+  gap: 24px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.value {
+  color: #2e2f42;
+  font-size: 40px;
+  line-height: 1.2;
+  letter-spacing: 1.6px;
+}
+
+.label {
+  color: #2e2f42;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.iziToast-wrapper .iziToast > .iziToast-close {
+  background-image: url(../img/alert-close.svg);
+  background-size: auto;
+  opacity: 1;
+}
